@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace dotnet5776
+namespace week1
 {
     class MyClass //1
 {
