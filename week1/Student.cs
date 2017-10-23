@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace week1
+namespace Week1
 {
-    class Student
+    public class Student
     {
 
         private string _name;

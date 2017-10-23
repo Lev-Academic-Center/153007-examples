@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Week1;
 
 namespace _153007_examples
 {
@@ -23,6 +24,16 @@ namespace _153007_examples
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void week1_Click(object sender, RoutedEventArgs e)
+        {
+            Student s1 = new Student();
+
+            s1.Name = "Cinderella";
+            s1.Age = 18;
+
+            tbMain.Text = "hello " + s1.Name + " " + s1.Age;
         }
     }
 }

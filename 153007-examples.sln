@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainMenu", "153007-examples\MainMenu.csproj", "{49FB05BA-10AB-4A7C-A407-BE74DFC97D56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "week1", "week1\week1.csproj", "{F5F7CBA9-9B9B-44B5-858D-D08B94850003}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week1", "week1\Week1.csproj", "{F5F7CBA9-9B9B-44B5-858D-D08B94850003}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "week2", "week2\week2.csproj", "{925449E8-FC91-4BC0-A9EC-6BD525129A13}"
 EndProject
