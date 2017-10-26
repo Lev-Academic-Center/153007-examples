@@ -12,12 +12,12 @@ namespace Week1
         {
             welcomeMethod();
             //Console.ReadKey();
-
+            
             Student s1 = new Student();
 
             s1.Name = "Cinderella";
             s1.Age = 18;
-
+            Student S3;
             Student s2;
             s2 = s1;
             Console.WriteLine(s1.Name + s1.Age);
