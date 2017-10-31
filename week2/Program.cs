@@ -10,6 +10,13 @@ namespace week2
     {
         static void Main(string[] args)
         {
+            Enums.Days d = Enums.Days.Friday;
+            string today = d.ToString();
         }
+        /// <summary>
+        /// func
+        /// </summary>
+        /// <returns></returns>
+        int func() { return 1; }
     }
 }
