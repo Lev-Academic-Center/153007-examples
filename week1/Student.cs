@@ -13,6 +13,14 @@ namespace Week1
 	    private int _age;
         private int _id;
 
+
+        public Student(string _name="", int _age=0, int _id=1)
+        {
+            this._name = _name;
+            this._age = _age;
+            this._id = _id;
+        }
+
         public int Grade { get; set; }
 
         #region Properties
@@ -31,6 +39,13 @@ namespace Week1
         {
             get {return _id; }
         }
+        #endregion
+
+        public override string ToString()
+        {
+            return _name + " " + _id;
+        }
     }
-    #endregion
+    
+    
 }
