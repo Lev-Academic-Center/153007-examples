@@ -36,9 +36,9 @@ namespace week2
 
         }
         /// <summary>
-        /// func
+        /// func dummy
         /// </summary>
-        /// <returns></returns>
+        /// <returns>always return 1</returns>
         int func() { return 1; }
     }
 }
