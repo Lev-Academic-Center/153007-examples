@@ -22,12 +22,12 @@ namespace week2
             DateTime date1 = DateTime.Now;
             DateTime date2 = new DateTime(2011, 10, 05);
             TimeSpan t = date1 - date2;
-            string str2 = "3a2";
-
+            string str2 = "32 13 15";
+            
             try
             {
                 int i = Int32.Parse(str2);
-                int j = Convert.ToInt32(str2);
+                //int[] myInts = Convert.
             }
             catch (Exception e)
             {
