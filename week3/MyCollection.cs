@@ -16,7 +16,7 @@ namespace week3
         {
             MyCollection coll; Student curr = null;
             int cntr = -1; // before the first element!!!
-            internal MyEnmrtr(MyCollection coll) { this.coll = coll; }
+            public MyEnmrtr(MyCollection coll) { this.coll = coll; }
             public void Reset() { } // deprecated – can be empty
             public object Current { get { return curr; } }
             public bool MoveNext()

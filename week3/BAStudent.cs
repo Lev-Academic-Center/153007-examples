@@ -33,5 +33,10 @@ namespace week3
         {
             return base.ToString() + "milga: " + _milga;
         }
+
+        public  override int getAve()
+        {
+            return 90;
+        }
     }
 }

@@ -11,16 +11,36 @@ namespace week2
     {
         static void Main(string[] args)
         {
-            Enums.Days d = Enums.Days.Friday;
+             Enums.Days d = Enums.Days.Friday;
+           
             string today = d.ToString();
 
             List<Student> StudentsList = new List<Student>();
             Student s1 = new Student("Moshe",20);
-
+            
             Console.WriteLine(s1);
 
             DateTime date1 = DateTime.Now;
             DateTime date2 = new DateTime(2011, 10, 05);
+
+            if (date1.DayOfWeek  == (DayOfWeek)((int)d)-1)
+                Console.WriteLine("Shabat Shaolm");
+            switch (d)
+            {
+                case Enums.Days.Sunday:
+                    Console.WriteLine("Shavua Tov");
+                    break;
+                case Enums.Days.Monday:
+                    Console.WriteLine("Shiur C#");
+                    break;
+                case Enums.Days.Friday:
+                    Console.WriteLine("Shabat Shaolm");
+                    break;
+                default:
+                    Console.WriteLine("Tomorrow is another day");
+                    break;
+            }
+
             TimeSpan t = date1 - date2;
             string str2 = "32 13 15";
             

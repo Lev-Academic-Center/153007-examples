@@ -63,9 +63,16 @@ namespace Week1
             return _name + " " + _id;
         }
 
+        public virtual int getAve()
+        {
+            return 80;
+        }
+
         public int CompareTo(object obj)
         {
-            return Grade.CompareTo((obj as Student).Grade);
+            //return Grade.CompareTo((obj as Student).Grade);
+            return Id.CompareTo((obj as Student).Id);
+
         }
     }
     
