@@ -70,8 +70,8 @@ namespace Week1
 
         public int CompareTo(object obj)
         {
-            //return Grade.CompareTo((obj as Student).Grade);
-            return Id.CompareTo((obj as Student).Id);
+            return Grade.CompareTo((obj as Student).Grade);
+            //return Id.CompareTo((obj as Student).Id);
 
         }
     }

@@ -46,6 +46,7 @@
     <Compile Include="BAStudent.cs" />
     <Compile Include="Exam.cs" />
     <Compile Include="MAStudent.cs" />
+    <Compile Include="MidTest.cs" />
     <Compile Include="MyCollection.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
@@ -54,6 +55,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\week1\Week1.csproj">

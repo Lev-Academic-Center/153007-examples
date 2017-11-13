@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace week3
 {
-    abstract class Exam
+    public abstract class Exam
     {
 
     }
