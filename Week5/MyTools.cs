@@ -13,7 +13,7 @@ namespace Week5
         {
             return int.Parse(str);
         }
-        public static Student ToStudent(this String str)
+        public static Student ToStudent(this string str)
         {
             return Student.Parse(str);
         }

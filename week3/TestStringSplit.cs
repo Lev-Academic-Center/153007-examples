@@ -8,8 +8,6 @@ namespace week3
 {
     public class TestStringSplit
     {
-
-
         static char[] delimiterChars = { ' ', ',', '.', ':', '\t' };
 
         public static int[] ToIntArray(string str)

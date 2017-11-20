@@ -39,6 +39,8 @@ namespace Week5
             Student s = StudentName.ToStudent();
             
             int i = MyTools.ToInt(str);
+            int i2 = str.ToInt();
+
             int j = "123".ToInt();
 
             string a = "123a";
