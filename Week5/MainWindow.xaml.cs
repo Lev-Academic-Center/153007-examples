@@ -49,7 +49,7 @@ namespace Week5
             catch (Exception ex)
             {
                 tbShow.Text = ex.Message;
-          //     throw new Exception("new message", ex);
+                 throw new MyExpception("new message", ex);
             }
             finally
             {
