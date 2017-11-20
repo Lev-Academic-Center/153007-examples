@@ -10,9 +10,9 @@ namespace week3
     {
 
 
-        char[] delimiterChars = { ' ', ',', '.', ':', '\t' };
+        static char[] delimiterChars = { ' ', ',', '.', ':', '\t' };
 
-        public int[] ToIntArray(string str)
+        public static int[] ToIntArray(string str)
         {
             string[] words = str.Split(delimiterChars);
             List<int> arr = new List<int>();
@@ -20,10 +20,12 @@ namespace week3
             {
                 arr.Add(int.Parse(s));
             }
+
             return arr.ToArray();
         }
 
 
 
-    }   
+
     }
+}

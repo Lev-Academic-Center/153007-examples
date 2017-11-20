@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace week4WPF.Properties
+namespace Week4.Properties
 {
 
 

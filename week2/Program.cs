@@ -53,6 +53,11 @@ namespace week2
             {
                 Console.WriteLine(e.Message);
             }
+            var Person = new
+            {
+                Id = 1234,
+                personName = "oshri"
+             };
 
         }
         /// <summary>

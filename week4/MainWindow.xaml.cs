@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace week4WPF
+namespace Week4
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -23,18 +23,6 @@ namespace week4WPF
         public MainWindow()
         {
             InitializeComponent();
-        }
-
-        private void button_Click(object sender, RoutedEventArgs e)
-        {
-            Window1 win = new Window1();
-            win.Show();
-            tbExample1.Text = "Hi";
-        }
-
-        private void button2_Click(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }

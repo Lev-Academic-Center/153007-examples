@@ -14,7 +14,7 @@ namespace week3
             BAStudent y = new BAStudent(true);
             y.Grade = 100;
             MAStudent z = new MAStudent(false); 
-
+            
             Console.WriteLine(y);
 
             List<Student> StudentsList = new List<Student>();
@@ -35,6 +35,9 @@ namespace week3
                 }
             }
             StudentsList.Sort();
+            
+            string str = Console.ReadLine();
+            int[] arr = TestStringSplit.ToIntArray(str);  
             
         }
     }

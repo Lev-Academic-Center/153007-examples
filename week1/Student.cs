@@ -24,6 +24,11 @@ namespace Week1
             this._id = _counterId++;
         }
 
+        public static Student Parse(string str)
+        {
+            return new Student(str);
+        }
+
         public Student(string _name, int _age)
         {
             this._name = _name;
@@ -70,8 +75,8 @@ namespace Week1
 
         public int CompareTo(object obj)
         {
-            return Grade.CompareTo((obj as Student).Grade);
-            //return Id.CompareTo((obj as Student).Id);
+            //return Grade.CompareTo((obj as Student).Grade);
+            return Id.CompareTo((obj as Student).Id);
 
         }
     }
